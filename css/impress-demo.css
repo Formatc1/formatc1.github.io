@@ -764,13 +764,13 @@ Below we position each word separately along Z axis and we want it to transition
     float: right;
 }
 
-#filesize h1, #animate h1, #editable h1 {
+#filesize h1, #animate h1, #editable h1, #application h1 {
     font-size: 2em;
     margin-bottom: 1em;
 }
 
 #filesize p, #editable p {
-    margin: 1em 0;
+    margin: 2em 0;
 }
 
 #animate img {
@@ -781,6 +781,10 @@ Below we position each word separately along Z axis and we want it to transition
 #W3C img {
     width: 778px;
     margin: 40px 0;
+}
+
+#application ul {
+    line-height: 2em;
 }
 
 #summary h1 {
